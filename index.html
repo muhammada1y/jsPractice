@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Dates</h1>
+<h2>The getMilliseconds() Method</h2>
+<p>Return the milliseconds of a date as a number (0-999):</p>
+
+<p id="demo"></p>
+
+<script>
+        
+        function dataFunction() {
+            const date = document.getElementById("data").value;
+            console.log(date);
+            const time = document.getElementById('time').value
+            console.log(time)
+        }
+</script>
+<fieldset>
+    <legend>Account type (required)</legend>
+    <label for="business-account"><input id="data" type="date" name="account-type" class="inline" /> date</label>
+    <label for="business-account"><input id="time" type="time" name="account-type" class="inline" /> date</label>
+
+    <input type="submit" value="Submit" onclick="dataFunction()" />
+ 
+</fieldset>
+
+</body>
+</html>
