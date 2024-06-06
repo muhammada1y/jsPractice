@@ -25,7 +25,7 @@ const myfunction = (element,index,arry)=>{
     return element > 8
 }
 const ala = number.filter(myfunction)
-// console.log(ala)
+console.log(ala)
 
 
 const lal = (sumeOfArray,elemet,index,array)=>{
