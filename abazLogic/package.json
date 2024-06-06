@@ -1,0 +1,17 @@
+{
+  "name": "abazlogic",
+  "version": "1.0.0",
+  "description": "this is for helth attendance",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ali"
+  ],
+  "author": "ali",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.4.1"
+  }
+}
